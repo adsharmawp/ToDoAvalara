@@ -1,0 +1,50 @@
+{
+  "ToDoList": [
+    {
+      "Id": 1,
+      "Name": "Home ToDo List",
+      "CreateDate": "2021-01-01T05:30:00",
+      "Tasks": [
+        {
+          "Id": 1,
+          "ToDoId": 1,
+          "Subject": "Garden Clean",
+          "Description": "Clean dry leaves from garden.",
+          "CreateDate": "2021-02-02T15:00:00",
+          "Status": "NotStarted"
+        },
+        {
+          "Id": 2,
+          "ToDoId": 1,
+          "Subject": "Garden Plan",
+          "Description": "Seasonal plant in garden",
+          "CreateDate": "2021-02-02T15:00:00",
+          "Status": "NotStarted"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "Office ToDo List",
+      "CreateDate": "2021-01-02T18:30:00",
+      "Tasks": [
+        {
+          "Id": 1,
+          "ToDoId": 2,
+          "Subject": "Excel",
+          "Description": "Prepare report in excel.",
+          "CreateDate": "2021-02-02T15:00:00",
+          "Status": "NotStarted"
+        },
+        {
+          "Id": 2,
+          "ToDoId": 2,
+          "Subject": "Code",
+          "Description": "Create library dll for listed work.",
+          "CreateDate": "2021-02-02T15:00:00",
+          "Status": "InProgress"
+        }
+      ]
+    }
+  ]
+}
